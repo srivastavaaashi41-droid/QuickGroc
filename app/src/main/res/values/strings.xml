@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuickGroc</string>
+    <string name="login_title">Welcome Back!</string>
+    <string name="login_subtitle">Enter your mobile number to continue</string>
+    <string name="enter_mobile">Enter mobile number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_sent_to">OTP sent to</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="change_number">Change Number</string>
+    <string name="home_greeting">Good Morning! 👋</string>
+    <string name="search_hint">Search for groceries…</string>
+    <string name="cart">Cart</string>
+    <string name="add_to_cart">Add</string>
+    <string name="checkout">Proceed to Checkout</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_placed">Order Placed!</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="cod">Cash on Delivery</string>
+    <string name="online">Online Payment</string>
+    <string name="bill_summary">Bill Summary</string>
+    <string name="item_total">Item Total</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="total">Total</string>
+    <string name="empty_cart">Your cart is empty</string>
+    <string name="empty_cart_sub">Add items from the home screen</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="estimated_delivery">Estimated Delivery</string>
+    <string name="minutes_delivery">10 – 15 Minutes</string>
+</resources>

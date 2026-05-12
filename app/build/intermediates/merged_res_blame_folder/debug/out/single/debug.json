@@ -1,0 +1,550 @@
+[
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_login.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_search_bar.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_location.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_icon_circle_gray.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_icon_circle_gray.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_accent_light.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_accent_light.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_payment_card.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_payment_card.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_white_translucent.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_white_translucent.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_add_btn_rounded.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_add_btn_rounded.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_payment_normal.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_payment_normal.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_item_cart.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_deal_purple.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_deal_purple.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_discount_badge.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_discount_badge.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/anim_slide_in_right.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_input_field.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_input_field.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_step_active.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_step_active.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_splash_bg.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/splash_bg.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_ripple_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_ripple_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_success_ring.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_success_ring.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_star.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_banner_gradient.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_banner_gradient.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_profile.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_logo.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_delivery.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_delivery.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_mic.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_mic.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_category_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_category_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_green_pill.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_green_pill.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_menu_icon_blue.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_menu_icon_blue.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_white_translucent.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_white_translucent.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_checkout.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_avatar_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_avatar_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_success_hero.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_success_hero.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_app_icon_bg.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_app_icon_bg.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_delete_btn.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_delete_btn.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_product_image_bg.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_product_image_bg.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_order_success.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_order_success.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_tag_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_tag_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_order_id_pill.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_order_id_pill.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_category_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_category_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_qty_control_rounded.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_qty_control_rounded.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_search_bar.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_app_icon_bg.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_app_icon_bg.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_qty_control_rounded.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_qty_control_rounded.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_payment_card.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_payment_card.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_back_btn_white.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_back_btn_white.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_home.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_see_all.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_see_all.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_cart.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_cart.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_circle_white_10.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_circle_white_10.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_qty_mid.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_qty_mid.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_card_white.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_card_white.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_green_pill.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_green_pill.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_menu_item.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_menu_item.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_login_hero.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_login_hero.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_login_bottom_sheet.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_login_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_icon_circle_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_icon_circle_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_add_button.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_add_button.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_delete_btn.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_delete_btn.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_delivery_chip.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_delivery_chip.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_card_elevated.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_card_elevated.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_deal_orange.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_deal_orange.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/anim_slide_up.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/anim/slide_up.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_otp_box.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_otp_box.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_status_delivered.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_status_delivered.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_success_ring.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_success_ring.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_search.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_payment.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_payment.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_item_order.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_qty_mid.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_qty_mid.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_success_inner_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_success_inner_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/anim_slide_out_left.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_step_done.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_step_done.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_back_btn_white.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_back_btn_white.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_menu_icon_orange.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_menu_icon_orange.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_login_bottom_sheet.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_login_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_my_orders.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_my_orders.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_location_pill.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_location_pill.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_handle_bar.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_handle_bar.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_notification.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_payment_cod_selected.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_payment_cod_selected.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_bottom_card.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_bottom_card.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_step_pending.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_step_pending.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_otp_box.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_otp_box.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_person.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_button_outline.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_status_active.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_status_active.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_radio_off.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_radio_off.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_timer.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_timer.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_qty_control.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_qty_control.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_product_image_bg.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_product_image_bg.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_location_pill.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_location_pill.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_icon_circle_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_icon_circle_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_login_hero.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_login_hero.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_input_field.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_input_field.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_success_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_success_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_home.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_deal_orange.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_deal_orange.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_handle_bar.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_handle_bar.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_button_primary.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_icon_circle_gray.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_icon_circle_gray.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_item_category.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_payment_normal.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_payment_normal.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/navigation_nav_graph.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_payment_cod_selected.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_payment_cod_selected.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_menu_icon_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_menu_icon_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_otp.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_otp.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_delete.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_tag_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_tag_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_banner_gradient.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_banner_gradient.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_add_btn_rounded.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_add_btn_rounded.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_primary_light_rounded.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_primary_light_rounded.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_button_outline.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_button_outline.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_logout_btn.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_logout_btn.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/anim_fade_in.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_badge_red.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_badge_red.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/anim_fade_out.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_ripple_green.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_ripple_green.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_check_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_card_white.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_card_white.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_category_chip.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_category_chip.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_button_primary.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_button_primary.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_fragment_cart.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_wallet.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_wallet.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_primary_light_rounded.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_primary_light_rounded.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_success_inner_circle.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_success_inner_circle.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_accent_light.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_accent_light.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_delivery_chip.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_delivery_chip.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_offer.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_offer.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_ic_radio_on.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/ic_radio_on.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_success_hero.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_success_hero.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_menu_icon_purple.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_menu_icon_purple.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable-night_bg_deal_purple.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable-night/bg_deal_purple.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/drawable_bg_menu_icon_gray.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/drawable/bg_menu_icon_gray.xml"
+    },
+    {
+        "merged": "com.oceanx.groceryapp-merged_res-54:/layout_item_product.xml.flat",
+        "source": "com.oceanx.groceryapp-main-56:/layout/item_product.xml"
+    }
+]

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>QuickGroc – Screen Preview</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Poppins',sans-serif; background:#0F7B3C; min-height:100vh; padding:32px 20px; }
+  h1 { color:#fff; text-align:center; font-size:28px; font-weight:800; letter-spacing:-0.5px; margin-bottom:6px; }
+  .subtitle { color:#CCFFFFFF; text-align:center; font-size:14px; margin-bottom:40px; }
+  .screens-grid { display:flex; flex-wrap:wrap; gap:24px; justify-content:center; max-width:1400px; margin:0 auto; }
+  .phone-wrap { display:flex; flex-direction:column; align-items:center; gap:10px; }
+  .screen-label { color:#fff; font-size:12px; font-weight:600; letter-spacing:1px; opacity:0.8; text-transform:uppercase; }
+  .phone { width:280px; height:580px; background:#fff; border-radius:40px; overflow:hidden; box-shadow:0 24px 64px rgba(0,0,0,0.3); position:relative; }
+  /* ---- SCREEN 1: LOGIN ---- */
+  .login-hero { background:linear-gradient(135deg,#0A5E2E,#15A352); height:220px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; position:relative; overflow:hidden; }
+  .login-hero::before { content:''; position:absolute; width:160px; height:160px; background:rgba(255,255,255,0.07); border-radius:50%; top:-40px; right:-40px; }
+  .login-hero::after { content:''; position:absolute; width:100px; height:100px; background:rgba(255,255,255,0.05); border-radius:50%; bottom:-20px; left:-20px; }
+  .app-icon-box { width:72px; height:72px; background:rgba(255,255,255,0.2); border-radius:18px; display:flex; align-items:center; justify-content:center; font-size:34px; }
+  .app-name-white { color:#fff; font-size:22px; font-weight:800; letter-spacing:-0.5px; }
+  .tagline-white { color:rgba(255,255,255,0.75); font-size:11px; }
+  .login-form { background:#fff; border-radius:28px 28px 0 0; margin-top:-24px; padding:26px 22px 20px; flex:1; }
+  .handle { width:36px; height:4px; background:#E5E7EB; border-radius:99px; margin:0 auto 20px; }
+  .screen-title { font-size:20px; font-weight:700; color:#1A1A2E; margin-bottom:4px; }
+  .screen-sub { font-size:12px; color:#9CA3AF; margin-bottom:20px; }
+  .label { font-size:10px; font-weight:700; color:#9CA3AF; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px; }
+  .input-row { display:flex; align-items:center; background:#F9FAFB; border:1.5px solid #E5E7EB; border-radius:14px; padding:0 14px; height:52px; gap:10px; margin-bottom:16px; }
+  .country-code { font-weight:700; color:#1A1A2E; font-size:14px; white-space:nowrap; }
+  .divider-v { width:1px; height:22px; background:#E5E7EB; }
+  .input-placeholder { color:#D1D5DB; font-size:15px; flex:1; letter-spacing:1px; }
+  .btn-primary { background:linear-gradient(135deg,#0F7B3C,#15A352); color:#fff; border:none; border-radius:14px; height:52px; width:100%; font-size:15px; font-weight:700; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+  .terms-text { font-size:10px; color:#C4C4C4; text-align:center; margin-top:14px; line-height:1.5; }
+  /* ---- OTP ---- */
+  .otp-boxes { display:flex; gap:8px; justify-content:center; margin:24px 0 14px; }
+  .otp-box { width:56px; height:60px; background:#F9FAFB; border:2px solid #0F7B3C; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:800; color:#1A1A2E; }
+  .otp-box.empty { border-color:#E5E7EB; color:#D1D5DB; }
+  .hint-box { background:#FFF0EB; border:1px solid #FFCDB8; border-radius:10px; padding:8px 14px; display:flex; gap:6px; align-items:center; justify-content:center; margin:0 auto 20px; width:fit-content; font-size:12px; }
+  /* ---- HOME ---- */
+  .home-header { background:#fff; padding:14px 16px 10px; }
+  .home-top-row { display:flex; align-items:center; justify-content:space-between; margin-bottom:4px; }
+  .greeting-sm { font-size:11px; color:#9CA3AF; }
+  .app-name-dark { font-size:20px; font-weight:800; color:#1A1A2E; letter-spacing:-0.5px; }
+  .icon-btn { width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:16px; }
+  .icon-btn-gray { background:#F3F4F6; }
+  .icon-btn-green { background:linear-gradient(135deg,#0F7B3C,#15A352); }
+  .location-pill { display:inline-flex; align-items:center; gap:5px; background:#F9FAFB; border:1px solid #E5E7EB; border-radius:99px; padding:3px 10px; font-size:10px; color:#6B7280; margin-top:4px; }
+  .search-bar { display:flex; align-items:center; background:#F7F8FA; border:1.5px solid #E5E7EB; border-radius:12px; padding:0 12px; height:44px; gap:8px; margin-top:10px; }
+  .search-text { color:#D1D5DB; font-size:12px; flex:1; }
+  .banner { background:linear-gradient(135deg,#0A5E2E,#15A352); border-radius:18px; margin:12px 14px; height:108px; padding:16px; display:flex; align-items:center; justify-content:space-between; position:relative; overflow:hidden; }
+  .banner::before { content:''; position:absolute; width:100px; height:100px; background:rgba(255,255,255,0.08); border-radius:50%; top:-30px; right:-30px; }
+  .banner-text { display:flex; flex-direction:column; gap:2px; }
+  .banner-pill { background:rgba(255,255,255,0.2); border-radius:6px; padding:2px 8px; font-size:9px; color:#fff; font-weight:700; width:fit-content; letter-spacing:0.5px; }
+  .banner-title { color:#fff; font-size:19px; font-weight:800; margin-top:2px; letter-spacing:-0.5px; }
+  .banner-sub { color:rgba(255,255,255,0.75); font-size:11px; }
+  .banner-emoji { font-size:46px; }
+  .section-row { display:flex; align-items:center; justify-content:space-between; padding:0 14px; margin-top:14px; }
+  .section-title { font-size:14px; font-weight:700; color:#1A1A2E; }
+  .see-all { font-size:11px; font-weight:700; color:#0F7B3C; }
+  .categories { display:flex; gap:10px; padding:10px 12px; overflow:hidden; }
+  .cat-item { display:flex; flex-direction:column; align-items:center; gap:5px; flex-shrink:0; }
+  .cat-icon { width:56px; height:56px; background:#F0FDF4; border:1.5px solid #DCFCE7; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:24px; }
+  .cat-icon.active { background:linear-gradient(135deg,#0F7B3C,#15A352); border-color:#0F7B3C; }
+  .cat-name { font-size:10px; font-weight:700; color:#1A1A2E; }
+  .products-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; padding:10px 12px; }
+  .product-card { background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.06); overflow:hidden; }
+  .product-img-area { background:linear-gradient(135deg,#F0FDF4,#DCFCE7); height:90px; display:flex; align-items:center; justify-content:center; font-size:40px; position:relative; }
+  .product-badge { position:absolute; top:6px; left:6px; background:#FF6B35; border-radius:6px; padding:2px 6px; font-size:8px; color:#fff; font-weight:700; }
+  .product-info { padding:10px; }
+  .product-name { font-size:12px; font-weight:700; color:#1A1A2E; }
+  .product-weight { font-size:10px; color:#9CA3AF; margin-top:2px; }
+  .product-bottom { display:flex; align-items:center; justify-content:space-between; margin-top:8px; }
+  .product-price { font-size:14px; font-weight:800; color:#1A1A2E; }
+  .add-btn { background:linear-gradient(135deg,#0F7B3C,#15A352); color:#fff; border:none; border-radius:8px; padding:5px 10px; font-size:11px; font-weight:700; display:flex; align-items:center; gap:3px; }
+  .qty-ctrl { display:flex; align-items:center; background:#F0FDF4; border:1.5px solid #0F7B3C; border-radius:8px; }
+  .qty-btn { width:26px; height:28px; display:flex; align-items:center; justify-content:center; font-size:16px; font-weight:700; color:#0F7B3C; }
+  .qty-num { width:22px; height:28px; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:#1A1A2E; background:#fff; }
+  /* ---- CART ---- */
+  .cart-header { background:#fff; padding:14px 16px; display:flex; align-items:center; gap:10px; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+  .back-btn { width:36px; height:36px; background:#F3F4F6; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:16px; }
+  .page-title { font-size:17px; font-weight:700; color:#1A1A2E; flex:1; }
+  .item-count-sm { font-size:12px; color:#9CA3AF; }
+  .cart-item { background:#fff; border-radius:16px; box-shadow:0 2px 8px rgba(0,0,0,0.05); margin:0 12px 10px; padding:12px; display:flex; align-items:center; gap:12px; }
+  .cart-img { width:66px; height:66px; background:linear-gradient(135deg,#F0FDF4,#DCFCE7); border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:32px; flex-shrink:0; }
+  .cart-info { flex:1; }
+  .cart-name { font-size:13px; font-weight:700; color:#1A1A2E; }
+  .cart-weight { font-size:11px; color:#9CA3AF; margin-top:2px; }
+  .cart-price { font-size:15px; font-weight:800; color:#0F7B3C; margin-top:6px; }
+  .cart-right { display:flex; flex-direction:column; align-items:flex-end; gap:8px; }
+  .del-btn { width:28px; height:28px; background:#FEF2F2; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; }
+  .bill-card { background:#fff; border-radius:16px 16px 0 0; padding:16px; margin-top:auto; box-shadow:0 -4px 20px rgba(0,0,0,0.08); }
+  .bill-row { display:flex; justify-content:space-between; font-size:13px; color:#6B7280; margin-bottom:8px; }
+  .bill-total-row { display:flex; justify-content:space-between; font-size:15px; font-weight:700; color:#1A1A2E; border-top:1px solid #F0F0F0; padding-top:10px; margin-top:4px; margin-bottom:14px; }
+  .total-price { color:#0F7B3C; }
+  /* ---- CHECKOUT ---- */
+  .section-card { background:#fff; border-radius:18px; margin:10px 12px; padding:16px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
+  .section-card-title { display:flex; align-items:center; gap:8px; font-size:14px; font-weight:700; color:#1A1A2E; margin-bottom:12px; }
+  .section-icon { font-size:16px; }
+  .input-field { background:#F9FAFB; border:1.5px solid #E5E7EB; border-radius:12px; padding:12px 14px; font-size:13px; color:#9CA3AF; margin-bottom:8px; }
+  .payment-option { display:flex; align-items:center; background:#F9FAFB; border:1.5px solid #E5E7EB; border-radius:13px; padding:12px 14px; gap:12px; margin-bottom:8px; }
+  .payment-option.selected { background:#F0FDF4; border-color:#0F7B3C; }
+  .pay-emoji { font-size:22px; }
+  .pay-info { flex:1; }
+  .pay-name { font-size:13px; font-weight:700; color:#1A1A2E; }
+  .pay-sub { font-size:10px; color:#9CA3AF; }
+  .radio-on { width:18px; height:18px; border-radius:50%; border:2px solid #0F7B3C; background:#0F7B3C; display:flex; align-items:center; justify-content:center; }
+  .radio-on::after { content:''; width:7px; height:7px; background:#fff; border-radius:50%; }
+  .radio-off { width:18px; height:18px; border-radius:50%; border:2px solid #D1D5DB; }
+  /* ---- SUCCESS ---- */
+  .success-hero { background:linear-gradient(135deg,#0A5E2E,#15A352); height:220px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; position:relative; overflow:hidden; }
+  .success-hero::before { content:''; position:absolute; width:160px; height:160px; background:rgba(255,255,255,0.07); border-radius:50%; top:-40px; right:-40px; }
+  .success-ring { width:110px; height:110px; background:rgba(255,255,255,0.2); border-radius:50%; display:flex; align-items:center; justify-content:center; }
+  .success-inner { width:84px; height:84px; background:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:36px; }
+  .success-title { color:#fff; font-size:20px; font-weight:800; }
+  .success-sub { color:rgba(255,255,255,0.75); font-size:12px; }
+  .success-content { background:#fff; border-radius:28px 28px 0 0; margin-top:-20px; padding:22px 18px; }
+  .info-card { background:#F0FDF4; border-radius:16px; padding:16px; margin-bottom:16px; }
+  .info-row { display:flex; align-items:center; gap:10px; padding:8px 0; }
+  .info-icon { width:34px; height:34px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:14px; flex-shrink:0; }
+  .info-icon-green { background:linear-gradient(135deg,#0F7B3C,#15A352); color:#fff; font-weight:700; }
+  .info-icon-gray { background:#F3F4F6; }
+  .info-icon-light { background:#F0FDF4; }
+  .info-label { font-size:11px; color:#6B7280; }
+  .info-value { font-size:13px; font-weight:700; color:#1A1A2E; }
+  .info-value-green { color:#0F7B3C; }
+  .divider-green { height:1px; background:#DCFCE7; margin:4px 0; }
+  .btn-outline { background:#fff; color:#0F7B3C; border:2px solid #0F7B3C; border-radius:14px; height:46px; width:100%; font-size:13px; font-weight:700; display:flex; align-items:center; justify-content:center; margin-top:10px; }
+
+  /* Home scrollable content */
+  .home-scroll { height:calc(580px - 128px); overflow:hidden; }
+</style>
+</head>
+<body>
+
+<h1>🛒 QuickGroc — Screen Designs</h1>
+<p class="subtitle">Kotlin Android App · OceanX Agency Assignment · All 5 Screens</p>
+
+<div class="screens-grid">
+
+  <!-- SCREEN 1: LOGIN -->
+  <div class="phone-wrap">
+    <div class="phone">
+      <div class="login-hero">
+        <div class="app-icon-box">🛒</div>
+        <div class="app-name-white">QuickGroc</div>
+        <div class="tagline-white">Groceries at your door in 10 minutes</div>
+      </div>
+      <div class="login-form">
+        <div class="handle"></div>
+        <div class="screen-title">Welcome back! 👋</div>
+        <div class="screen-sub">Enter your mobile number to continue</div>
+        <div class="label">MOBILE NUMBER</div>
+        <div class="input-row">
+          <div class="country-code">🇮🇳 +91</div>
+          <div class="divider-v"></div>
+          <div class="input-placeholder">98XXXXXXXX</div>
+        </div>
+        <div class="btn-primary">Send OTP</div>
+        <div style="display:flex;align-items:center;gap:10px;margin:14px 0 10px;">
+          <div style="flex:1;height:1px;background:#F0F0F0;"></div>
+          <div style="font-size:10px;color:#D1D5DB;">secure login</div>
+          <div style="flex:1;height:1px;background:#F0F0F0;"></div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;gap:6px;font-size:12px;color:#9CA3AF;">
+          <span>🔒</span><span>Your data is safe with us</span>
+        </div>
+        <div class="terms-text">By continuing, you agree to our Terms &amp; Privacy Policy</div>
+      </div>
+    </div>
+    <div class="screen-label">1 · Login</div>
+  </div>
+
+  <!-- SCREEN 2: OTP -->
+  <div class="phone-wrap">
+    <div class="phone">
+      <div class="login-hero" style="height:190px;">
+        <div style="width:36px;height:36px;background:rgba(255,255,255,0.9);border-radius:10px;position:absolute;top:16px;left:16px;display:flex;align-items:center;justify-content:center;font-size:18px;">←</div>
+        <div class="app-icon-box">📱</div>
+      </div>
+      <div class="login-form" style="margin-top:-20px;">
+        <div class="handle"></div>
+        <div class="screen-title">Verify OTP</div>
+        <div style="display:flex;gap:4px;font-size:12px;margin-top:4px;margin-bottom:0;">
+          <span style="color:#9CA3AF;">Code sent to</span>
+          <span style="color:#0F7B3C;font-weight:700;">+91 98XXXXX00</span>
+        </div>
+        <div class="otp-boxes">
+          <div class="otp-box">1</div>
+          <div class="otp-box">2</div>
+          <div class="otp-box">3</div>
+          <div class="otp-box empty">_</div>
+        </div>
+        <div class="hint-box">
+          <span>💡</span>
+          <span style="color:#92400E;">Demo OTP: </span>
+          <span style="color:#FF6B35;font-weight:700;letter-spacing:3px;">1 2 3 4</span>
+        </div>
+        <div class="btn-primary">Verify &amp; Continue</div>
+        <div style="display:flex;gap:4px;justify-content:center;font-size:12px;margin-top:16px;">
+          <span style="color:#9CA3AF;">Didn't receive the code?</span>
+          <span style="color:#0F7B3C;font-weight:700;">Resend OTP</span>
+        </div>
+      </div>
+    </div>
+    <div class="screen-label">2 · OTP Verify</div>
+  </div>
+
+  <!-- SCREEN 3: HOME -->
+  <div class="phone-wrap">
+    <div class="phone" style="overflow:hidden;">
+      <!-- Sticky header -->
+      <div class="home-header">
+        <div class="home-top-row">
+          <div>
+            <div class="greeting-sm">Good Morning! 👋</div>
+            <div class="app-name-dark">QuickGroc</div>
+          </div>
+          <div style="display:flex;gap:8px;">
+            <div class="icon-btn icon-btn-gray">🔔</div>
+            <div class="icon-btn icon-btn-green" style="position:relative;">
+              <span style="font-size:15px;">🛒</span>
+              <div style="position:absolute;top:0;right:0;width:14px;height:14px;background:#EF4444;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:8px;color:#fff;font-weight:700;">3</div>
+            </div>
+          </div>
+        </div>
+        <div class="location-pill">📍 Sector 15, Noida · 10 min delivery</div>
+        <div class="search-bar">
+          <span style="font-size:14px;color:#9CA3AF;">🔍</span>
+          <div class="search-text">Search groceries, vegetables…</div>
+          <span style="font-size:13px;color:#9CA3AF;">🎤</span>
+        </div>
+      </div>
+      <!-- Scrollable -->
+      <div class="home-scroll" style="background:#F7F8FA;overflow-y:scroll;">
+        <div class="banner">
+          <div class="banner-text">
+            <div class="banner-pill">🎁 LIMITED OFFER</div>
+            <div class="banner-title">Free Delivery</div>
+            <div class="banner-sub">on your first order!</div>
+          </div>
+          <div class="banner-emoji">🛵</div>
+        </div>
+        <div class="section-row"><div class="section-title">Shop by Category</div><div class="see-all">See all →</div></div>
+        <div class="categories">
+          <div class="cat-item"><div class="cat-icon active">🛒</div><div class="cat-name" style="color:#0F7B3C;">All</div></div>
+          <div class="cat-item"><div class="cat-icon">🥦</div><div class="cat-name">Veggies</div></div>
+          <div class="cat-item"><div class="cat-icon">🍎</div><div class="cat-name">Fruits</div></div>
+          <div class="cat-item"><div class="cat-icon">🥛</div><div class="cat-name">Dairy</div></div>
+        </div>
+        <div class="section-row"><div class="section-title">Fresh Picks 🌿</div><div class="see-all">See all →</div></div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-img-area">🍅<div class="product-badge">10% OFF</div></div>
+            <div class="product-info">
+              <div style="display:inline-flex;align-items:center;gap:3px;background:#F0FDF4;border-radius:99px;padding:2px 7px;margin-bottom:5px;"><span style="font-size:9px;">⏱</span><span style="font-size:9px;color:#0F7B3C;font-weight:700;">10 mins</span></div>
+              <div class="product-name">Fresh Tomatoes</div>
+              <div class="product-weight">500g</div>
+              <div class="product-bottom"><div class="product-price">₹35</div><div class="add-btn">+ ADD</div></div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img-area">🥬</div>
+            <div class="product-info">
+              <div style="display:inline-flex;align-items:center;gap:3px;background:#F0FDF4;border-radius:99px;padding:2px 7px;margin-bottom:5px;"><span style="font-size:9px;">⏱</span><span style="font-size:9px;color:#0F7B3C;font-weight:700;">10 mins</span></div>
+              <div class="product-name">Baby Spinach</div>
+              <div class="product-weight">250g</div>
+              <div class="product-bottom"><div class="product-price">₹29</div><div class="qty-ctrl"><div class="qty-btn">−</div><div class="qty-num">2</div><div class="qty-btn">+</div></div></div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img-area">🍎<div class="product-badge">15% OFF</div></div>
+            <div class="product-info">
+              <div style="display:inline-flex;align-items:center;gap:3px;background:#F0FDF4;border-radius:99px;padding:2px 7px;margin-bottom:5px;"><span style="font-size:9px;">⏱</span><span style="font-size:9px;color:#0F7B3C;font-weight:700;">10 mins</span></div>
+              <div class="product-name">Red Apples</div>
+              <div class="product-weight">4 pcs</div>
+              <div class="product-bottom"><div class="product-price">₹89</div><div class="add-btn">+ ADD</div></div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img-area">🥛</div>
+            <div class="product-info">
+              <div style="display:inline-flex;align-items:center;gap:3px;background:#F0FDF4;border-radius:99px;padding:2px 7px;margin-bottom:5px;"><span style="font-size:9px;">⏱</span><span style="font-size:9px;color:#0F7B3C;font-weight:700;">10 mins</span></div>
+              <div class="product-name">Whole Milk</div>
+              <div class="product-weight">1L</div>
+              <div class="product-bottom"><div class="product-price">₹68</div><div class="add-btn">+ ADD</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-label">3 · Home</div>
+  </div>
+
+  <!-- SCREEN 4: CART -->
+  <div class="phone-wrap">
+    <div class="phone" style="display:flex;flex-direction:column;overflow:hidden;">
+      <div class="cart-header">
+        <div class="back-btn">←</div>
+        <div class="page-title">My Cart</div>
+        <div class="item-count-sm">3 items</div>
+      </div>
+      <div style="flex:1;overflow-y:scroll;background:#F7F8FA;padding-top:10px;">
+        <div class="cart-item">
+          <div class="cart-img">🍅</div>
+          <div class="cart-info">
+            <div class="cart-name">Fresh Tomatoes</div>
+            <div class="cart-weight">500g</div>
+            <div class="cart-price">₹35</div>
+          </div>
+          <div class="cart-right">
+            <div class="del-btn">🗑</div>
+            <div class="qty-ctrl"><div class="qty-btn">−</div><div class="qty-num">1</div><div class="qty-btn">+</div></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="cart-img">🥬</div>
+          <div class="cart-info">
+            <div class="cart-name">Baby Spinach</div>
+            <div class="cart-weight">250g</div>
+            <div class="cart-price">₹29</div>
+          </div>
+          <div class="cart-right">
+            <div class="del-btn">🗑</div>
+            <div class="qty-ctrl"><div class="qty-btn">−</div><div class="qty-num">2</div><div class="qty-btn">+</div></div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="cart-img">🥛</div>
+          <div class="cart-info">
+            <div class="cart-name">Whole Milk</div>
+            <div class="cart-weight">1L</div>
+            <div class="cart-price">₹68</div>
+          </div>
+          <div class="cart-right">
+            <div class="del-btn">🗑</div>
+            <div class="qty-ctrl"><div class="qty-btn">−</div><div class="qty-num">1</div><div class="qty-btn">+</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="bill-card">
+        <div class="bill-row"><span>Item Total</span><span style="font-weight:600;color:#1A1A2E;">₹161</span></div>
+        <div class="bill-row"><span>Delivery Charge</span><span style="font-weight:600;color:#1A1A2E;">₹20</span></div>
+        <div class="bill-total-row"><span>Total</span><span class="total-price">₹181</span></div>
+        <div class="btn-primary" style="font-size:14px;">Proceed to Checkout →</div>
+      </div>
+    </div>
+    <div class="screen-label">4 · Cart</div>
+  </div>
+
+  <!-- SCREEN 5: CHECKOUT -->
+  <div class="phone-wrap">
+    <div class="phone" style="overflow-y:scroll;display:flex;flex-direction:column;">
+      <div class="cart-header">
+        <div class="back-btn">←</div>
+        <div class="page-title">Checkout</div>
+      </div>
+      <div style="background:#F7F8FA;flex:1;overflow-y:scroll;padding-bottom:80px;">
+        <div class="section-card">
+          <div class="section-card-title"><span class="section-icon">📍</span>Delivery Address</div>
+          <div class="input-field">House / Flat number</div>
+          <div class="input-field">Landmark (optional)</div>
+          <div class="input-field">City</div>
+          <div class="input-field" style="margin-bottom:0;">PIN Code</div>
+        </div>
+        <div class="section-card">
+          <div class="section-card-title"><span class="section-icon">💳</span>Payment Method</div>
+          <div class="payment-option selected">
+            <div class="pay-emoji">💵</div>
+            <div class="pay-info"><div class="pay-name">Cash on Delivery</div><div class="pay-sub">Pay when delivered</div></div>
+            <div class="radio-on"></div>
+          </div>
+          <div class="payment-option">
+            <div class="pay-emoji">📱</div>
+            <div class="pay-info"><div class="pay-name">Online Payment</div><div class="pay-sub">UPI / Card / Net Banking</div></div>
+            <div class="radio-off"></div>
+          </div>
+        </div>
+        <div class="section-card">
+          <div class="section-card-title">📄 Bill Summary</div>
+          <div class="bill-row"><span>Item Total</span><span style="font-weight:600;color:#1A1A2E;">₹161</span></div>
+          <div class="bill-row"><span>Delivery Charge</span><span style="font-weight:600;color:#1A1A2E;">₹20</span></div>
+          <div class="bill-row"><span>Platform Fee</span><span style="font-weight:600;color:#1A1A2E;">₹3</span></div>
+          <div class="bill-total-row"><span>Grand Total</span><span class="total-price">₹184</span></div>
+        </div>
+      </div>
+      <div style="position:sticky;bottom:0;background:#fff;padding:14px 16px;box-shadow:0 -4px 20px rgba(0,0,0,0.08);">
+        <div class="btn-primary">Place Order 🚀</div>
+      </div>
+    </div>
+    <div class="screen-label">5 · Checkout</div>
+  </div>
+
+  <!-- SCREEN 6: ORDER SUCCESS -->
+  <div class="phone-wrap">
+    <div class="phone" style="overflow:hidden;display:flex;flex-direction:column;">
+      <div class="success-hero">
+        <div class="success-ring">
+          <div class="success-inner">✅</div>
+        </div>
+        <div class="success-title">Order Confirmed!</div>
+        <div class="success-sub">Your groceries are on the way 🚀</div>
+      </div>
+      <div class="success-content" style="margin-top:-20px;flex:1;overflow-y:scroll;">
+        <div class="handle"></div>
+        <div class="info-card">
+          <div class="info-row">
+            <div class="info-icon info-icon-green">#</div>
+            <div><div class="info-label">Order ID</div><div class="info-value info-value-green">#GRO847261</div></div>
+          </div>
+          <div class="divider-green"></div>
+          <div class="info-row">
+            <div class="info-icon info-icon-light">🕐</div>
+            <div><div class="info-label">Estimated Delivery</div><div class="info-value">10 – 15 Minutes</div></div>
+          </div>
+          <div class="divider-green"></div>
+          <div class="info-row">
+            <div class="info-icon info-icon-gray" style="color:#0F7B3C;font-weight:800;">₹</div>
+            <div><div class="info-label">Amount Paid</div><div class="info-value">₹184</div></div>
+          </div>
+        </div>
+        <div class="btn-primary" style="margin:0 0 10px;">Continue Shopping</div>
+        <div class="btn-outline">Track Order 📍</div>
+      </div>
+    </div>
+    <div class="screen-label">6 · Order Success</div>
+  </div>
+
+</div>
+
+<!-- Footer info -->
+<div style="text-align:center;margin-top:48px;color:rgba(255,255,255,0.6);font-size:12px;line-height:1.8;">
+  <div style="color:#fff;font-size:14px;font-weight:700;margin-bottom:8px;">📦 Tech Stack</div>
+  Kotlin · XML Layouts · MVVM · Room DB · LiveData · Navigation Component · ViewBinding · Coroutines · RecyclerView
+  <br/><br/>
+  <div style="color:#fff;font-size:14px;font-weight:700;margin-bottom:8px;">✅ Features Implemented</div>
+  Login/OTP · Home (Search + Filter) · Cart (Room DB) · Checkout (Validation) · Order Success · Clean Architecture
+</div>
+
+</body>
+</html>

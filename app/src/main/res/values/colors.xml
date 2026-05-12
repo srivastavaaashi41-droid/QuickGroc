@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#0F7B3C</color>
+    <color name="primary_dark">#095C2B</color>
+    <color name="primary_light">#E8F5EE</color>
+    <color name="accent">#FF6B35</color>
+    <color name="accent_light">#FFF0EB</color>
+
+    <!-- Background Colors -->
+    <color name="bg_main">#F7F8FA</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- UI Elements -->
+    <color name="divider">#F0F0F0</color>
+    <color name="border">#E5E7EB</color>
+    <color name="shadow">#1A000000</color>
+    <color name="ripple">#1A0F7B3C</color>
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="error">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+    <color name="info">#3B82F6</color>
+
+    <!-- OTP Box -->
+    <color name="otp_box_bg">#F9FAFB</color>
+    <color name="otp_box_active">#0F7B3C</color>
+
+    <!-- Category Colors -->
+    <color name="cat_1">#FFF0EB</color>
+    <color name="cat_2">#E8F5EE</color>
+    <color name="cat_3">#EEF2FF</color>
+    <color name="cat_4">#FDF6E3</color>
+    <color name="cat_5">#FCE7F3</color>
+    <color name="cat_6">#E0F2FE</color>
+    <color name="nav_item_colors">#9CA3AF</color>
+</resources>
